@@ -71,10 +71,10 @@ module "alb" {
       target_group_index = 0
     }
 
-  tags = {
-    Environment = "dev"
+  #tags = {
+  #  Environment = "dev"
     
-  }
+  #}
 }
 
 module "blog_sg" {
