@@ -49,6 +49,7 @@ resource "aws_instance" "blog" {
 module "blog_autoscaling" {
   source  = "terraform-aws-modules/autoscaling/aws"
   version = "7.7.0"
+  name = "blog"
   # insert the 1 required variable here
   min_size = 1
   max_size = 2
