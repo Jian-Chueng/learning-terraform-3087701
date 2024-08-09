@@ -75,7 +75,7 @@ module "blog_alb" {
 
       
     }
-  ]
+  
 
   http_tcp_listeners = [
     {
